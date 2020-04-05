@@ -1,0 +1,9 @@
+image: buildpack-deps:18.04-scm
+
+stages:
+  - test
+  
+first:
+  stage: test
+  script:
+    - echo "just a test"
